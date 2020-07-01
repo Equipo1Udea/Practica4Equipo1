@@ -23,6 +23,7 @@ class Perimetro_Hexagono_Fragment : Fragment() {
 
         bt_Calcular.setOnClickListener {
             tv_Resultado.text = (Lado * 6).toInt().toString()
+
             
         }
 
