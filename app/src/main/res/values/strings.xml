@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Practica4Equipo1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="perimetroCuadrado">Perimetro Cuadrado</string>
+    <string name="ladoDelCuadrado">Aqui el valor</string>
+    <string name="calcularPerimetroCuadrado">CALCULAR</string>
+    <string name="lado">Ingrese el lado del cuadrado</string>
 </resources>
