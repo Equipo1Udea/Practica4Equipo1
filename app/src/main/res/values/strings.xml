@@ -3,6 +3,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Calcular_TX">Calcular</string>
-    <string name="Titulo_tx">Diga la medida de un lado</string>
+    <string name="Titulo_tx">Ingrese el lado del Hexágono</string>
     <string name="Titulo_Principal">Perímetro del Hexágono</string>
+    <string name="Mensaje_TX">Ingrese aquí el valor</string>
 </resources>

@@ -19,12 +19,13 @@ class Perimetro_Hexagono_Fragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        var Lado = et_Lado.toString().toInt()
-
         bt_Calcular.setOnClickListener {
-            tv_Resultado.text = (Lado * 6).toInt().toString()
+            var Lado = et_Lado.text.toString().toInt()
 
-            
+            bt_Calcular.setOnClickListener {
+                Lado = Lado * 6
+                tv_Resultado.text = Lado.toString()
+            }
         }
 
     }
