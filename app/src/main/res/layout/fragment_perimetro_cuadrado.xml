@@ -47,7 +47,7 @@
             android:inputType="number" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/bt_calcularPC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#03A9F4"
