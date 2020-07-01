@@ -10,15 +10,28 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="246dp"
-            android:layout_height="372dp"
-            android:src="@drawable/hexagono"
+        <TextView
+            android:id="@+id/tv_titulo_principal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/Titulo_Principal"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="217dp"
+            android:layout_height="296dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/hexagono"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_titulo_principal" />
 
         <Button
             android:id="@+id/bt_Calcular"
@@ -37,10 +50,12 @@
             android:id="@+id/tv_titulo"
             android:layout_width="290dp"
             android:layout_height="39dp"
+            android:layout_marginTop="64dp"
             android:text="@string/Titulo_tx"
             android:textColor="@android:color/black"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
