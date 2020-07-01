@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Practica4Equipo1</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="area_hexagono_fragment_label">Área Hexágono</string>
+    <string name="titulo_calculo_de_area_hexagono">Cálculo del Área de un Hexágono Regular</string>
+    <string name="todo_">TODO</string>
+    <string name="lado_hexagono_cm">Por favor ingrese la longitud de uno de sus lados en centímetros</string>
+    <string name="resultado_del_calculo_de_area_hexagono">Área del Hexágono</string>
+    <string name="calcular_area_del_hexagono">CALCULAR</string>
 </resources>
