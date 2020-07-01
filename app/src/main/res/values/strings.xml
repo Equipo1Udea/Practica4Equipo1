@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Practica4Equipo1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Calcular_TX">Calcular</string>
+    <string name="Titulo_tx">Diga la medida de un lado</string>
 </resources>
