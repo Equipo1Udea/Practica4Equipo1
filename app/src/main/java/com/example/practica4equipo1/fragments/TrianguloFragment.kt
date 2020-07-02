@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.practica4equipo1.R
 import kotlinx.android.synthetic.main.fragment_triangulo.*
@@ -35,7 +36,7 @@ class TrianguloFragment : Fragment() {
             val base = et_base.text.toString()
 
             if (base.isEmpty() || altura.isEmpty()) {
-                tv_final_area_triangulo.text = "incorrecto"
+                Toast.makeText(activity, "Ingrese un valor", Toast.LENGTH_SHORT).show()
             } else {
                 val resultado = (altura.toDouble() * base.toDouble()) / 2
                 tv_final_area_triangulo.text = "\n El área del triángulo es: $resultado"

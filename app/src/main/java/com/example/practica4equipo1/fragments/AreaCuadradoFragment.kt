@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.practica4equipo1.R
 import kotlinx.android.synthetic.main.fragment_area_cuadrado.*
@@ -32,7 +33,7 @@ class AreaCuadradoFragment : Fragment() {
             val text = et_area_cuadrado.text.toString()
 
             if (text.isEmpty()) {
-                tv_final_area_cuadrado.text = "Por favor, ingrese el lado"
+                Toast.makeText(activity, "Ingrese un valor", Toast.LENGTH_SHORT).show()
             } else {
                 val lado = text.toDouble()
                 var show = (lado * lado).toBigDecimal().setScale(3, RoundingMode.HALF_UP).toString()
