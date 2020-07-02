@@ -14,4 +14,8 @@
     <string name="base">Introduzca la base</string>
     <string name="altura">Introduzca la altura</string>
     <string name="calcularAT">Calcular</string>
+
+    <string name="titulo">Área Cuadrado</string>
+    <string name="titulo2">Ingrese el lado del cuadrado</string>
+    <string name="btn_titulo">CALCULAR</string>
 </resources>
