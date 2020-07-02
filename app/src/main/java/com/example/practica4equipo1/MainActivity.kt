@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.nav_triangulo, R.id.nav_perimetro_cuadrado, R.id.nav_area_cuadrado,
-                R.id.nav_perimetro_hexagono
+                R.id.nav_perimetro_hexagono, R.id.nav_area_hexagono
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
