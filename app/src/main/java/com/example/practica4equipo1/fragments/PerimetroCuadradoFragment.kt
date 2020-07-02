@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.practica4equipo1.R
 import kotlinx.android.synthetic.main.fragment_perimetro_cuadrado.*
@@ -38,7 +39,7 @@ class PerimetroCuadradoFragment : Fragment() {
             val ladoCuadrado = et_perimetro_cuadrado.text.toString()
 
             if (ladoCuadrado.isEmpty()) {
-                tv_final_perimetro_cuadrado.text = "No ha ingresado valor!"
+                Toast.makeText(activity, "Ingrese un valor", Toast.LENGTH_SHORT).show()
             } else {
                 val ladoA =
                     (4 * ladoCuadrado.toDouble()).toBigDecimal().setScale(2, RoundingMode.HALF_UP)

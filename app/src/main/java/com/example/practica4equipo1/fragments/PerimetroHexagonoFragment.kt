@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.practica4equipo1.R
 import kotlinx.android.synthetic.main.fragment_perimetro_hexagono.*
@@ -28,7 +29,7 @@ class PerimetroHexagonoFragment : Fragment() {
             val Lado_hexagono = et_perimetro_hexagono.text.toString()
 
             if (Lado_hexagono.isEmpty()) {
-                tv_final_hexagono.text = "No ha ingresado valor"
+                Toast.makeText(activity, "Ingrese un valor", Toast.LENGTH_SHORT).show()
             } else {
                 val resultado =
                     (6 * Lado_hexagono.toDouble()).toBigDecimal().setScale(3, RoundingMode.HALF_UP)
