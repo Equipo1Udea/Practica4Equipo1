@@ -13,8 +13,8 @@
 
     <string name="menu_area_cuadrado">Área Cuadrado</string>
 
-    <string name="menu_perimetro_hexagono">Perímetro Hexágono</string>
+    <string name="menu_perimetro_hexagono">Perímetro Hexágono Regular</string>
     <string name="lado_hexagono">Ingrese el lado del Hexágono</string>
 
-    <string name="menu_area_hexagono">Área Hexágono</string>
+    <string name="menu_area_hexagono">Área Hexágono Regular</string>
 </resources>

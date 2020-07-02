@@ -12,11 +12,11 @@
         tools:context=".fragments.AreaHexagonoFragment">
 
         <ImageView
-            android:id="@+id/iv_hexagono"
+            android:id="@+id/iv_area_hexagono"
             android:layout_width="202dp"
             android:layout_height="190dp"
             android:layout_marginTop="28dp"
-            android:src="@drawable/hexagono"
+            android:src="@drawable/hexagono2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -34,7 +34,7 @@
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/iv_hexagono"
+            app:layout_constraintTop_toBottomOf="@+id/iv_area_hexagono"
             tools:ignore="Autofill,LabelFor" />
 
         <Button
