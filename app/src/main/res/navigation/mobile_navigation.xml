@@ -12,22 +12,22 @@
         tools:layout="@layout/fragment_triangulo" />
 
     <fragment
+        android:id="@+id/nav_perimetro_cuadrado"
+        android:name="com.example.practica4equipo1.fragments.PerimetroCuadradoFragment"
+        android:label="@string/menu_perimetro_cuadrado"
+        tools:layout="@layout/fragment_perimetro_cuadrado" />
+
+    <fragment
         android:id="@+id/nav_area_cuadrado"
         android:name="com.example.practica4equipo1.fragments.AreaCuadradoFragment"
         android:label="@string/menu_area_cuadrado"
         tools:layout="@layout/fragment_area_cuadrado" />
 
     <fragment
-        android:id="@+id/nav_perimetro_cuadrado"
-        android:name="com.example.practica4equipo1.fragments.PerimetroCuadrado"
-        android:label="@string/menu_perimetro_cuadrado"
-        tools:layout="@layout/fragment_perimetro_cuadrado" />
-
-    <fragment
         android:id="@+id/nav_perimetro_hexagono"
-        android:name="com.example.practica4equipo1.fragments.Perimetro_Hexagono_Fragment"
+        android:name="com.example.practica4equipo1.fragments.PerimetroHexagonoFragment"
         android:label="@string/menu_perimetro_hexagono"
-        tools:layout="@layout/fragment_perimetro__hexagono_" />
+        tools:layout="@layout/fragment_perimetro_hexagono" />
 
 
 </navigation>
