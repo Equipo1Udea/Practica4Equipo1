@@ -1,5 +1,6 @@
 package com.example.practica4equipo1.fragments
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,7 +10,7 @@ import com.example.practica4equipo1.R
 import kotlinx.android.synthetic.main.fragment_triangulo.*
 
 
-/**
+/*
  * A simple [Fragment] subclass.
  * Use the [TrianguloFragment.newInstance] factory method to
  * create an instance of this fragment.
@@ -25,18 +26,18 @@ class TrianguloFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_triangulo, container, false)
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         bt_calcularAT.setOnClickListener {
             val altura = et_altura.text.toString()
             val base = et_base.text.toString()
-            var resultado = 0.0
 
             if (base.isEmpty() || altura.isEmpty()) {
                 tv_resultados.text = "incorrecto"
             } else {
-                resultado = (altura.toDouble() * base.toDouble()) / 2
+                val resultado = (altura.toDouble() * base.toDouble()) / 2
                 tv_resultados.text = "\n El área del triàngulo es: $resultado"
             }
         }

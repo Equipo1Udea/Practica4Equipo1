@@ -2,8 +2,6 @@ package com.example.practica4equipo1
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.FragmentManager
-import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
@@ -30,7 +28,8 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_triangulo
+                R.id.nav_triangulo, R.id.nav_area_cuadrado, R.id.nav_perimetro_cuadrado,
+                R.id.nav_perimetro_hexagono
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
