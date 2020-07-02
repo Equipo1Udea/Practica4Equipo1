@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_triangulo"
+            android:icon="@drawable/ic_triangle"
+            android:title="@string/menu_triangle" />
+        <item
+            android:id="@+id/nav_perimetro_cuadrado"
+            android:icon="@drawable/ic_perimetro_cuadrado"
+            android:title="@string/menu_perimetro_cuadrado" />
+        <item
+            android:id="@+id/nav_area_cuadrado"
+            android:icon="@drawable/ic_area_cuadrado"
+            android:title="@string/menu_area_cuadrado" />
+        <item
+            android:id="@+id/nav_perimetro_hexagono"
+            android:icon="@drawable/ic_perimetro_hexagono"
+            android:title="@string/menu_perimetro_hexagono" />
+    </group>
+
+
+</menu>
