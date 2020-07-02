@@ -1,5 +1,6 @@
 package com.example.practica4equipo1.fragments
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -23,6 +24,7 @@ class AreaHexagonoFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_area_hexagono, container, false)
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -31,13 +33,13 @@ class AreaHexagonoFragment : Fragment() {
             val lado = et_area_hexagono.text.toString()
 
             if (lado.isEmpty() || lado.isBlank()) {
-                Toast.makeText(activity, "Ingrese in valor", Toast.LENGTH_SHORT).show()
+                Toast.makeText(activity, "Ingrese un valor", Toast.LENGTH_SHORT).show()
             } else {
                 var aux = lado.toDouble()
                 aux = (3 * (aux.pow(2.0))) / (2 * tan((Math.PI) / 6))
                 tv_resultado_hexagono.text =
                     "${aux.toBigDecimal().setScale(4, RoundingMode.HALF_EVEN)
-                        .toPlainString()} Unidades cuadraticas"
+                        .toPlainString()} Unidades cuadráticas"
             }
         }
 
