@@ -7,7 +7,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_triangulo"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_triangle"
             android:title="@string/menu_triangle" />
         <item
             android:id="@+id/nav_area_cuadrado"
