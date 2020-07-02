@@ -9,6 +9,10 @@
             android:id="@+id/nav_triangulo"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_triangle" />
+        <item
+            android:id="@+id/nav_area_cuadrado"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_area_cuadrado" />
     </group>
 
 

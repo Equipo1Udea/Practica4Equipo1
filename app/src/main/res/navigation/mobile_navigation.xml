@@ -9,7 +9,13 @@
         android:id="@+id/nav_triangulo"
         android:name="com.example.practica4equipo1.fragments.TrianguloFragment"
         android:label="@string/menu_triangle"
-        tools:layout="@layout/fragment_triangulo"></fragment>
+        tools:layout="@layout/fragment_triangulo" />
+
+    <fragment
+        android:id="@+id/nav_area_cuadrado"
+        android:name="com.example.practica4equipo1.fragments.AreaCuadradoFragment"
+        android:label="@string/menu_area_cuadrado"
+        tools:layout="@layout/fragment_area_cuadrado" />
 
 
 </navigation>
