@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_triangulo, R.id.nav_area_cuadrado, R.id.nav_perimetro_cuadrado,
+                R.id.nav_triangulo, R.id.nav_perimetro_cuadrado, R.id.nav_area_cuadrado,
                 R.id.nav_perimetro_hexagono
             ), drawerLayout
         )
@@ -41,4 +41,4 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
-}//
+}

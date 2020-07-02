@@ -30,15 +30,15 @@ class TrianguloFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        bt_calcularAT.setOnClickListener {
+        bt_area_triangulo.setOnClickListener {
             val altura = et_altura.text.toString()
             val base = et_base.text.toString()
 
             if (base.isEmpty() || altura.isEmpty()) {
-                tv_resultados.text = "incorrecto"
+                tv_final_area_triangulo.text = "incorrecto"
             } else {
                 val resultado = (altura.toDouble() * base.toDouble()) / 2
-                tv_resultados.text = "\n El área del triàngulo es: $resultado"
+                tv_final_area_triangulo.text = "\n El área del triángulo es: $resultado"
             }
         }
 

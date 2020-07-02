@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,67 +9,57 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".fragments.TrianguloFragment">
+        tools:context=".fragments.PerimetroHexagonoFragment">
 
         <ImageView
-            android:id="@+id/iv_triangulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:src="@drawable/area_triangulo"
+            android:id="@+id/iv_hexagono"
+            android:layout_width="202dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/hexagono"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="ContentDescription" />
 
         <EditText
-            android:id="@+id/et_base"
+            android:id="@+id/et_perimetro_hexagono"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:ems="10"
-            android:hint="@string/base"
-            android:importantForAutofill="no"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:hint="@string/lado_hexagono"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="24sp"
             android:inputType="numberDecimal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/iv_triangulo" />
-
-        <EditText
-            android:id="@+id/et_altura"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:ems="10"
-            android:hint="@string/altura"
-            android:importantForAutofill="no"
-            android:inputType="numberDecimal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/et_base" />
+            app:layout_constraintTop_toBottomOf="@+id/iv_hexagono"
+            tools:ignore="Autofill,LabelFor" />
 
         <Button
-            android:id="@+id/bt_area_triangulo"
+            android:id="@+id/bt_perimetro_hexagono"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
             android:background="@android:color/holo_blue_dark"
             android:text="@string/btn_calcular"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_perimetro_hexagono" />
+
+        <TextView
+            android:id="@+id/tv_final_hexagono"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
             android:textColor="@android:color/black"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/et_altura" />
-
-        <TextView
-            android:id="@+id/tv_final_area_triangulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:textColor="@android:color/black"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bt_area_triangulo" />
+            app:layout_constraintTop_toBottomOf="@+id/bt_perimetro_hexagono" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
