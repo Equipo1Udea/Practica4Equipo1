@@ -1,5 +1,6 @@
 package com.example.practica4equipo1.fragments
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -13,32 +14,12 @@ import kotlinx.android.synthetic.main.fragment_perimetro_cuadrado.*
 //private const val ARG_PARAM1 = "param1"
 //private const val ARG_PARAM2 = "param2"
 
-/**
+/*
  * A simple [Fragment] subclass.
  * Use the [PerimetroCuadrado.newInstance] factory method to
  * create an instance of this fragment.
  */
 class PerimetroCuadrado : Fragment() {
-    // TODO: Rename and change types of parameters
-    //private var param1: String? = null
-    //private var param2: String? = null
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        /*arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }*/
-
-        bt_calcularPC.setOnClickListener {
-            var ladoCuadrado = et_ladoCuadrado.text.toString()
-
-            var ladoA: Double = 4 * java.lang.Double.valueOf(ladoCuadrado)
-
-            tv_resultadoPerimetroCuadrado.text = "El perimetro del cuadrado es: $ladoA"
-        }
-
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -48,23 +29,16 @@ class PerimetroCuadrado : Fragment() {
         return inflater.inflate(R.layout.fragment_perimetro_cuadrado, container, false)
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment PerimetroCuadrado.
-         */
-        // TODO: Rename and change types and number of parameters
-        //@JvmStatic
-        //fun newInstance(param1: String, param2: String) =
-          //  PerimetroCuadrado().apply {
-            //    arguments = Bundle().apply {
-              //      putString(ARG_PARAM1, param1)
-                //    putString(ARG_PARAM2, param2)
-                //}
-            //}
+    @SuppressLint("SetTextI18n")
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        bt_calcularPC.setOnClickListener {
+            val ladoCuadrado = et_ladoCuadrado.text.toString()
+
+            val ladoA: Double = 4 * java.lang.Double.valueOf(ladoCuadrado)
+
+            tv_resultadoPerimetroCuadrado.text = "El perimetro del cuadrado es: $ladoA"
+        }
     }
 }

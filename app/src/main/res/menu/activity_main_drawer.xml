@@ -13,6 +13,14 @@
             android:id="@+id/nav_area_cuadrado"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_area_cuadrado" />
+        <item
+            android:id="@+id/nav_perimetro_cuadrado"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_perimetro_cuadrado" />
+        <item
+            android:id="@+id/nav_perimetro_hexagono"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_perimetro_hexagono" />
     </group>
 
 

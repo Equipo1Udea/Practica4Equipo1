@@ -24,7 +24,7 @@ class Perimetro_Hexagono_Fragment : Fragment() {
             var Lado = et_Lado.text.toString().toInt()
 
             bt_Calcular.setOnClickListener {
-                Lado = Lado * 6
+                Lado *= 6
                 tv_Resultado.text = Lado.toString()
 
 
