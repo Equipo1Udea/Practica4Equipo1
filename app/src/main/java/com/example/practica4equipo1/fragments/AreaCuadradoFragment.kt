@@ -1,4 +1,4 @@
-package com.example.practica4equipo1
+package com.example.practica4equipo1.fragments
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import com.example.practica4equipo1.R
 import kotlinx.android.synthetic.main.fragment_area_cuadrado.*
 import java.math.RoundingMode
 
