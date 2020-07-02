@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_triangulo"
@@ -21,7 +20,10 @@
             android:id="@+id/nav_perimetro_hexagono"
             android:icon="@drawable/ic_perimetro_hexagono"
             android:title="@string/menu_perimetro_hexagono" />
+        <item
+            android:id="@+id/nav_area_hexagono"
+            android:icon="@drawable/ic_area_hexagono"
+            android:title="@string/menu_area_hexagono" />
     </group>
-
 
 </menu>
