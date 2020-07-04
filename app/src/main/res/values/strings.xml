@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Practica4Equipo1</string>
+    <string name="nav_header_title">Equipo 1</string>
+
+    <string name="btn_calcular">CALCULAR</string>
+    <string name="lado_cuadrado">Ingrese el lado del cuadrado</string>
+
+    <string name="menu_triangle">Área Triángulo</string>
+    <string name="base">Introduzca la base</string>
+    <string name="altura">Introduzca la altura</string>
+
+    <string name="menu_perimetro_cuadrado">Perímetro Cuadrado</string>
+
+    <string name="menu_area_cuadrado">Área Cuadrado</string>
+
+    <string name="menu_perimetro_hexagono">Perímetro Hexágono Regular</string>
+    <string name="lado_hexagono">Ingrese el lado del Hexágono</string>
+
+    <string name="menu_area_hexagono">Área Hexágono Regular</string>
 </resources>
