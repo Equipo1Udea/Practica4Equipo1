@@ -34,5 +34,10 @@
         android:name="com.example.practica4equipo1.fragments.AreaHexagonoFragment"
         android:label="@string/menu_area_hexagono"
         tools:layout="@layout/fragment_area_hexagono" />
+    <fragment
+        android:id="@+id/nav_area_circulo"
+        android:name="com.example.practica4equipo1.fragments.AreaCirculoFragment"
+        android:label="@string/menu_area_circulo"
+        tools:layout="@layout/fragment_area_circulo" />
 
 </navigation>

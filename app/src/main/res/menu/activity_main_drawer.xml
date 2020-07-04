@@ -24,6 +24,10 @@
             android:id="@+id/nav_area_hexagono"
             android:icon="@drawable/ic_area_hexagono"
             android:title="@string/menu_area_hexagono" />
+        <item
+            android:id="@+id/nav_area_circulo"
+            android:icon="@drawable/circulo"
+            android:title="@string/menu_area_circulo" />
     </group>
 
 </menu>
