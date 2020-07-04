@@ -1,6 +1,6 @@
 package com.example.practica4equipo1
 
-import androidx.appcompat.app.AppCompatActivity
+
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.nav_triangulo, R.id.nav_perimetro_cuadrado, R.id.nav_area_cuadrado,
-                R.id.nav_perimetro_hexagono, R.id.nav_area_hexagono
+                R.id.nav_perimetro_hexagono, R.id.nav_area_hexagono, R.id.nav_area_circulo
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
