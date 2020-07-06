@@ -25,6 +25,10 @@
             android:icon="@drawable/ic_area_hexagono"
             android:title="@string/menu_area_hexagono" />
         <item
+            android:id="@+id/nav_perimetro_circulo"
+            android:icon="@drawable/ic_perimetro_circulo"
+            android:title="@string/menu_perimetro_circulo" />
+        <item
             android:id="@+id/nav_area_circulo"
             android:icon="@drawable/circulo"
             android:title="@string/menu_area_circulo" />

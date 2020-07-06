@@ -33,5 +33,6 @@
         circunferencia siendo esta última su borde, es decir, la curva perimetral que lo determina
         y que solo posee longitud.​</string>
     <string name="menu_area_circulo">Área Círculo</string>
+    <string name="menu_perimetro_circulo">Perímetro Círculo</string>
 
 </resources>
