@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_triangulo">
+
+    <fragment
+        android:id="@+id/nav_triangulo"
+        android:name="com.example.practica4equipo1.fragments.TrianguloFragment"
+        android:label="@string/menu_triangle"
+        tools:layout="@layout/fragment_triangulo" />
+
+    <fragment
+        android:id="@+id/nav_perimetro_cuadrado"
+        android:name="com.example.practica4equipo1.fragments.PerimetroCuadradoFragment"
+        android:label="@string/menu_perimetro_cuadrado"
+        tools:layout="@layout/fragment_perimetro_cuadrado" />
+
+    <fragment
+        android:id="@+id/nav_area_cuadrado"
+        android:name="com.example.practica4equipo1.fragments.AreaCuadradoFragment"
+        android:label="@string/menu_area_cuadrado"
+        tools:layout="@layout/fragment_area_cuadrado" />
+
+    <fragment
+        android:id="@+id/nav_perimetro_hexagono"
+        android:name="com.example.practica4equipo1.fragments.PerimetroHexagonoFragment"
+        android:label="@string/menu_perimetro_hexagono"
+        tools:layout="@layout/fragment_perimetro_hexagono" />
+
+    <fragment
+        android:id="@+id/nav_area_hexagono"
+        android:name="com.example.practica4equipo1.fragments.AreaHexagonoFragment"
+        android:label="@string/menu_area_hexagono"
+        tools:layout="@layout/fragment_area_hexagono" />
+    <fragment
+        android:id="@+id/nav_area_circulo"
+        android:name="com.example.practica4equipo1.fragments.AreaCirculoFragment"
+        android:label="@string/menu_area_circulo"
+        tools:layout="@layout/fragment_area_circulo" />
+
+</navigation>
