@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Practica4Equipo1</string>
+    <string name="app_name">Feature_Perimetro_Circulo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="STR_KC_Titulo">Perímetro del círculo</string>
+    <string name="STR_KC_CirculoDes">Imagen para describir circulo</string>
+    <string name="STR_KC_Descripción">El perímetro de un círculo es el doble del producto de π por el radio (r). También se puede calcular a partir del diámetro (D), siendo el producto de π y el diámetro.</string>
+    <string name="STR_KC_RadioDiametro">¿Desea hallar el perímetro del círculo mediante su radio o su díametro?</string>
+    <string name="STR_KC_Radio">Calcular el perímetro del circulo a través de su radio.</string>
+    <string name="STR_KC_Diametro">Calcular el perímetro del círculo a través de su díametro.</string>
+    <string name="STR_KC_Valor">Por favor, ingrese el valor:</string>
+    <string name="STR_KC_Calcular">¡Calcular perímetro!</string>
 </resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondopractica4_1"
+    android:orientation="vertical"
+    tools:context="com.example.practica4equipo1.fragments.PerimetroCirculoFragment">
+
+    <LinearLayout
+        android:id="@+id/LL_KC_Fragmento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.practica4equipo1.PerimetroCirculoFragment">
+
+        <TextView
+            android:id="@+id/TV_KC_Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:fontFamily="@font/acme"
+            android:text="@string/STR_KC_Titulo"
+            android:textColor="@android:color/black"
+            android:textSize="46sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/IV_KC_Circulo"
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:layout_margin="4dp"
+            android:contentDescription="@string/STR_KC_CirculoDes"
+            android:src="@drawable/ic_baseline_panorama_fish_eye_24" />
+
+        <TextView
+            android:id="@+id/TV_KC_Descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:fontFamily="@font/acme"
+            android:text="@string/STR_KC_Descripción"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/TV_KC_RadioDiametro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/acme"
+            android:text="@string/STR_KC_RadioDiametro"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/RG_KC_RadioDiametro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
+
+            <RadioButton
+                android:id="@+id/RB_KC_Radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/STR_KC_Radio"
+                android:textAlignment="gravity"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/RB_KC_Diametro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/STR_KC_Diametro"
+                android:textAlignment="gravity"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TV_KC_Valor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:fontFamily="@font/acme"
+            android:text="@string/STR_KC_Valor"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/ET_KC_ValorDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/BT_KC_Calcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/holo_blue_light"
+            android:fontFamily="@font/acme"
+            android:text="@string/STR_KC_Calcular"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TV_KC_Resultado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/acme"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>
