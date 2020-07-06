@@ -101,7 +101,8 @@
             android:importantForAutofill="no"
             android:inputType="numberDecimal"
             android:textColor="@android:color/background_dark"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            tools:ignore="LabelFor" />
 
         <Button
             android:id="@+id/BT_KC_Calcular"

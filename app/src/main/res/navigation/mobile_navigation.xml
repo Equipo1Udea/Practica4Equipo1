@@ -34,6 +34,13 @@
         android:name="com.example.practica4equipo1.fragments.AreaHexagonoFragment"
         android:label="@string/menu_area_hexagono"
         tools:layout="@layout/fragment_area_hexagono" />
+
+    <fragment
+        android:id="@+id/nav_perimetro_circulo"
+        android:name="com.example.practica4equipo1.fragments.PerimetroCirculoFragment"
+        android:label="@string/menu_perimetro_circulo"
+        tools:layout="@layout/fragment_perimetro_circulo" />
+
     <fragment
         android:id="@+id/nav_area_circulo"
         android:name="com.example.practica4equipo1.fragments.AreaCirculoFragment"
